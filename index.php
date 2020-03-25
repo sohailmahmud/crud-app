@@ -69,7 +69,6 @@
 						<?php
 							include_once('connection.php');
 							$sql = "SELECT * FROM members";
-
 							//use for MySQLi-OOP
 							$query = $conn->query($sql);
 							while($row = $query->fetch_assoc()){
