@@ -5,7 +5,6 @@
 	   die("Connection failed: " . $conn->connect_error);
 	}
 	////////////////
-
 	//for MySQLi Procedural
 	// $conn = mysqli_connect('localhost', 'root', '', 'mydatabase');
 	// if(!$conn){
