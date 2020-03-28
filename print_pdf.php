@@ -17,7 +17,6 @@
 			";
 		}
 		////////////////
-
 		//use for MySQLi Procedural
 		// $query = mysqli_query($conn, $sql);
 		// while($row = mysqli_fetch_assoc($query)){
@@ -31,10 +30,8 @@
 		// 	";
 		// }
 		////////////////
-		
 		return $contents;
 	}
-
 	require_once('tcpdf/tcpdf.php');  
     $pdf = new TCPDF('P', PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);  
     $pdf->SetCreator(PDF_CREATOR);  
