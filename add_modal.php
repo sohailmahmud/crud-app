@@ -40,7 +40,6 @@
                 <button type="submit" name="add" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
 			</form>
             </div>
-
         </div>
     </div>
 </div>
