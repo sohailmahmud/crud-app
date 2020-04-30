@@ -59,6 +59,7 @@
 				<th width="55%">Address</th> 
            </tr>  
       ';  
+
     $content .= generateRow();  
     $content .= '</table>';  
     $pdf->writeHTML($content);  
